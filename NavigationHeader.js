@@ -98,8 +98,8 @@ class NavigationHeader extends React.PureComponent<DefaultProps, Props, any> {
     renderLeftComponent: PropTypes.func,
     renderRightComponent: PropTypes.func,
     renderTitleComponent: PropTypes.func,
-    style: View.propTypes.style,
-    viewProps: PropTypes.shape(View.propTypes),
+    style: ViewPropTypes.style,
+    viewProps: PropTypes.shape(ViewPropTypes),
   };
 
   render(): ReactElement {

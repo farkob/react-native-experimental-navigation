@@ -23,11 +23,11 @@
   "homepage": "https://github.com/aksonov/react-native-experimental-navigation#readme",
   "devDependencies": {
     "babel-cli": "^6.8.0",
-    "clamp": "^1.0.1",
-    "fbjs": "^0.8.1",
     "babel-plugin-syntax-flow": "^6.8.0",
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
-    "babel-preset-react-native": "^1.7.0"
+    "babel-preset-react-native": "^1.7.0",
+    "clamp": "^1.0.1",
+    "fbjs": "^0.8.1"
   },
   "babel": {
     "plugins": [
@@ -44,6 +44,6 @@
     "babel-preset-react-native": "^1.9.0",
     "clamp": "^1.0.1",
     "fbjs": "^0.8.1",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.6.0"
   }
 }

@@ -16,6 +16,8 @@
 */
 'use strict';
 
+const PropTypes = require('prop-types');
+
 const React = require('react');
 const ReactNative = require('react-native');
 const NavigationContainer = require('./NavigationContainer');
@@ -39,7 +41,7 @@ const NavigationHeaderBackButton = (props: Props) => (
 );
 
 NavigationHeaderBackButton.propTypes = {
-  onNavigate: React.PropTypes.func.isRequired
+  onNavigate: PropTypes.func.isRequired
 };
 
 const styles = StyleSheet.create({
