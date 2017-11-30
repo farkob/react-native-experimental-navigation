@@ -45,6 +45,7 @@ const {
   Platform,
   StyleSheet,
   View,
+  ViewPropTypes,
 } = ReactNative;
 
 import type  {

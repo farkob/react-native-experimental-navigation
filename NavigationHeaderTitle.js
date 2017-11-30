@@ -37,6 +37,7 @@ const {
   StyleSheet,
   View,
   Text,
+  ViewPropTypes,
 } = ReactNative;
 
 type Props = {
